@@ -28,3 +28,62 @@
 	color: #0063a3;
 	font-weight: 800;
 }
+.liga_row {
+	color: #1a1465;
+	font-weight: 500;
+}
+.orange_btn {
+	border-radius: 20px;
+	padding:3px 10px ;
+	background-color: orange;
+	color: white;
+	cursor: pointer;
+}
+.tel{
+	font-weight: 700;
+}
+.shoping_busket{
+	height: 40px;
+	cursor: pointer;
+}
+.shop_count{
+	height: 18px;
+	width: 18px;
+	background-color: orange;
+	position: absolute;
+	left: 15px;
+	bottom: 10px;
+	border-radius: 50%;
+	font-size: 15px;
+	color: white;
+
+}
+.sum_rub {
+	line-height: 1;
+	padding-left: 10px;
+}
+.sum {
+	font-size: 12px;
+	margin: 0;
+}
+.rub{
+	font-size: 12px;
+}
+.fa-shopping-cart{
+	position: relative;
+	font-size: 28px;
+}
+.serch{
+	border:1px solid lightgray; 
+	width: 380px;
+}
+.serch input {
+	padding-left: 5px;
+	width:340px;
+	border: none;
+}
+.serch button {
+	width: 26px;
+	border: none;
+	background:none;
+}
