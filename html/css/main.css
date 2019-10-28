@@ -1,0 +1,30 @@
+.blue {
+	background-color: #0063a3;
+
+}
+.lang_container {
+	height: 40px;
+}
+.lang{
+	color: #70a7cb;
+	margin:0 10px;
+	height: 100%;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+.lang_active {
+	color: white;
+	border-bottom: 2px solid orange;
+}
+.navbar{
+	padding: 0
+}
+.navbar a {
+    color: white;
+}
+.logo{
+	font-size: 45px;
+	color: #0063a3;
+	font-weight: 800;
+}
