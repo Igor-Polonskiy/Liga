@@ -19,9 +19,7 @@
 	color: white;
 	border-bottom: 2px solid orange;
 }
-.navbar{
-	padding: 0
-}
+
 .navbar a {
     color: white;
 }
@@ -88,4 +86,123 @@
 	width: 26px;
 	border: none;
 	background:none;
+}
+.main_img {
+	height: 550px;
+	z-index: 1;
+	background-image: url(../img/pr.jpg);
+	background-position: 50% 50%;
+	background-size: cover;
+}
+.mask{
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(90deg, rgba(12,15,68, 1), rgba(0, 0, 0, 0.4), rgba(221,116,17, 0.8));
+	color: white;
+}
+.mask h1{
+	font-size: 36px;
+	padding-top: 100px;
+}
+.last_news {
+	cursor: pointer;
+	font-size: 14px;
+	margin-top: 30px;
+}
+.last_news_mask {
+	padding:5px 15px ;
+	height: 100%;
+	width: 100%;
+	background: rgba(12,15,68, 0.85);
+	font-weight: 500;
+	color: white;
+}
+.event {
+	background-image: url(../img/pr.jpg);
+	background-position: 50% 50%;
+	background-size: cover;
+}
+.event li {
+	color: green;
+}
+.bordered {
+	border-top: 1px solid lightgray;
+}
+.event2 {
+	background: white;
+	color: black;
+}
+.event2 li {
+	color: orange;
+}
+.main_content {
+	background-color: #f3f3f9;
+	position: relative;
+	height: 500px;
+}
+.main_content_container {
+	position: absolute;
+	top: -100px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	
+	background-color: white;
+	z-index: 3;
+	color:#1a1465; 
+}
+.main_header {
+	height: 100px;;
+
+}
+.frame {
+	position: relative;
+	height: 300px;
+	border: 1px solid lightgray;
+}
+.triangle-bottomright {
+	position: absolute;;
+	right: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid #f3f3f9; 
+	border-left: 100px solid transparent;
+	z-index:5;
+}
+.frame {
+	background-position: 50% 50%;
+	background-size:contain;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
+}
+.frame.corpus {
+	background-image: url(../img/2.jpg)
+}
+.frame.dors{
+	background-image: url(../img/1.jpg);
+}
+.frame.nesting {
+	background-color: #0063a3;
+	color: white;
+}
+.frame.nesting i{
+	font-size: 50px;
+}
+.triangle-bottomright i{
+	position: absolute;;
+	right: 10px;
+	top: 50px;
+	z-index: 6;
+	color: #0063a3;
+}
+.icon_circle {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	position: absolute;
+	right: 15px;
+	top: -15px;
+	z-index: 99;
+	background-color: orange;
 }
