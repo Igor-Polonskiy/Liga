@@ -139,8 +139,7 @@
 .main_content {
 	background-color: #e8e8e8;
 	position: relative;
-	height: 500px;
-
+	height: 2000px;
 }
 .main_content_container {
 	position: absolute;
@@ -148,7 +147,6 @@
 	margin: auto;
 	left: 0;
 	right: 0;
-	/*padding: 0 30px;*/
 	background-color: white;
 	z-index: 3;
 	color:#1a1465; 
@@ -158,11 +156,7 @@
 	height: 100px;;
 
 }
-.frame {
-	position: relative;
-	height: 300px;
-	border: 1px solid lightgray;
-}
+
 .triangle-bottomright {
 	position: absolute;;
 	right: 0;
@@ -174,6 +168,9 @@
 	z-index:5;
 }
 .frame {
+	position: relative;
+	height: 300px;
+	border: 1px solid lightgray;
 	background-position: 50% 50%;
 	background-size:contain;
 	background-repeat: no-repeat;
@@ -245,10 +242,11 @@
 .news_event {
 	font-size: 14px;
 	line-height: 1em;
-	height: 250px;
+	height: 300px;
+	font-weight: 500;
 }
 .news_img{
-	height: 100px;
+	height: 130px;
 	width: 100%;
 	background-position: 50%;
 	background-size: cover;
@@ -271,7 +269,7 @@
 }
 .projection{
 	margin-top: 30px;
-	height: 200px;
+	height: 150px;
 	width: 100%;
 	background-color: #0f1247;
 	color: white;
@@ -286,4 +284,40 @@
 .projection button{
 	width: 10%;
 	border: none;
+}
+.sale {
+	font-size: 12px;
+	font-weight: 500;
+}
+.sale_percent {
+	position: absolute;
+	left: 0;
+	top:15px;
+	padding: 5px;
+	color: white;
+}
+.sale_img{
+	position: relative;
+	height: 200px;
+	background-image: url(../img/frez.jpg);
+	background-position: 50%;
+	background-size: cover;
+}
+.old_price {
+	text-decoration: line-through;
+}
+.border {
+	border: 1px solid lightgray
+}
+.pointer {
+	cursor: pointer;
+}
+.partner {
+	width: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.partner img{
+	height: 100px;
 }
