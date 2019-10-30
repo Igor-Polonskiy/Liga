@@ -139,6 +139,7 @@
 	background-color: #f3f3f9;
 	position: relative;
 	height: 500px;
+
 }
 .main_content_container {
 	position: absolute;
@@ -146,7 +147,7 @@
 	margin: auto;
 	left: 0;
 	right: 0;
-	
+	padding: 0 30px;
 	background-color: white;
 	z-index: 3;
 	color:#1a1465; 
@@ -201,8 +202,8 @@
 	width: 80px;
 	border-radius: 50%;
 	position: absolute;
-	right: 15px;
-	top: -15px;
+	right: 10px;
+	top: 10px;
 	z-index: 99;
 	background-color: orange;
 }
