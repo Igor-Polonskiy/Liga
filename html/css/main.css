@@ -23,17 +23,32 @@
 	display: none;
 }
 .nav_collapse:hover {
-	color: lightblue;
+	color: #0063a3;
 }
 .nav_down {
+	padding-top: 20px;
 	position: absolute;
 	border-top: 2px solid orange;
-	top: 0;
-	left: 0;
+	bottom: : 0;
+	left: -0;
 	right: 0;
 	background-color: white;
 	box-shadow: 0px 15px  15px gray;
 	z-index: 10;
+	color: #1a1465;
+	font-size: 14px;
+	
+}
+.nav_down a{
+	text-decoration: none;
+}
+.nav_down a:hover li{
+	color: #0063a3;
+list-style-type: disc;
+}
+.nav_down li {
+color: #666;
+list-style-type: none;
 }
 .navbar a {
     color: white;
