@@ -32,6 +32,10 @@
 	color: #1a1465;
 	font-weight: 500;
 }
+.liga_row a{
+	color: #1a1465;
+	font-weight: 500
+}
 .orange_btn {
 	border-radius: 20px;
 	padding:3px 10px ;
@@ -41,6 +45,11 @@
 }
 .tel{
 	font-weight: 700;
+}
+.dropdown-menu {
+	width: 100vw
+	right: 0;
+
 }
 .shoping_busket{
 	height: 40px;
@@ -139,7 +148,7 @@
 .main_content {
 	background-color: #e8e8e8;
 	position: relative;
-	height: 2000px;
+	height: 2500px;
 }
 .main_content_container {
 	position: absolute;
@@ -307,7 +316,8 @@
 	text-decoration: line-through;
 }
 .border {
-	border: 1px solid lightgray
+	border: 1px solid lightgray;
+	
 }
 .pointer {
 	cursor: pointer;
@@ -320,4 +330,74 @@
 }
 .partner img{
 	height: 100px;
+}
+.seen {
+	color: #1a1465;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-bottom: 50px;
+}
+.seen_item {
+	cursor: pointer;
+	padding-top: 15px;
+	background-color: white;
+	font-weight: 500;
+	line-height: 1em;
+}
+.seen_item p{
+	margin-top: 10px;
+}
+footer{
+	background-color: #0f1247;
+	color: white;
+
+ 
+}
+.footer_item {
+	
+}
+.footer_item a{
+	
+	color: white;
+}
+.footer_item p{
+	text-align: center;
+}
+.youtube {
+	font-size: 25px;
+	text-align: center;
+	margin-top: -10px;
+
+}
+.youtube i {
+	color: red;
+}
+.footer_icon {
+	font-size: 20px;
+	padding: 10px;
+	height: 40px;
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	color: #0063a3;
+	cursor: pointer;
+	border-radius: 2px;
+}
+.footer_icon:hover {
+	color: orange;
+}
+footer .logo{
+	margin-top: -20px;
+}
+.coptrite {
+	border-top: 1px solid lightgray;
+}
+.enter:hover {
+	color: orange;
+	cursor: pointer;
+
 }
