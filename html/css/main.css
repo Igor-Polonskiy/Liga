@@ -107,19 +107,40 @@ list-style-type: none;
 	position: relative;
 	font-size: 28px;
 }
+
 .serch{
 	border:1px solid lightgray; 
 	width: 380px;
+}
+.fixed{
+	position: fixed;
 }
 .serch input {
 	padding-left: 5px;
 	width:340px;
 	border: none;
 }
+.fixed_menu .serch {
+	width: 160px;
+}
+.fixed_menu .serch input {
+	padding-left: 5px;
+	width: 120px;
+	border: none;
+
+}
 .serch button {
 	width: 26px;
 	border: none;
 	background:none;
+}
+.fixed {
+	display: fixed;
+
+	left: 0;
+	right: 0;
+	background-color: white;
+	z-index: 12;
 }
 .main_img {
 	height: 550px;
@@ -189,7 +210,6 @@ list-style-type: none;
 }
 .main_header {
 	height: 100px;;
-
 }
 
 .triangle-bottomright {
