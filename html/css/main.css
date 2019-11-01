@@ -46,6 +46,11 @@
 	color: #0063a3;
 list-style-type: disc;
 }
+.nav_down p:hover {
+	cursor: pointer;
+	color: #0063a3;
+	font-weight: 600;
+}
 .nav_down li {
 color: #666;
 list-style-type: none;
@@ -120,6 +125,7 @@ list-style-type: none;
 	width:340px;
 	border: none;
 }
+
 .fixed_menu .serch {
 	width: 160px;
 }
@@ -136,7 +142,7 @@ list-style-type: none;
 }
 .fixed {
 	display: fixed;
-
+	box-shadow: 0px 15px  15px rgba(0,0,0,0.5);
 	left: 0;
 	right: 0;
 	background-color: white;
@@ -195,7 +201,7 @@ list-style-type: none;
 .main_content {
 	background-color: #e8e8e8;
 	position: relative;
-	height: 2500px;
+	
 }
 .main_content_container {
 	position: absolute;
