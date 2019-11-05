@@ -72,11 +72,12 @@ list-style-type: none;
 	font-weight: 500
 }
 .orange_btn {
-	border-radius: 20px;
+	border-radius: 5px;
 	padding:3px 10px ;
 	background-color: orange;
 	color: white;
 	cursor: pointer;
+	border: none;
 }
 .tel{
 	font-weight: 700;
@@ -156,8 +157,7 @@ list-style-type: none;
 	background-size: cover;
 }
 .mask{
-	position: relative;
-	height: 100%;
+		height: 100%;
 	width: 100%;
 	background: linear-gradient(90deg, rgba(12,15,68, 1), rgba(0, 0, 0, 0.4), rgba(221,116,17, 0.8));
 	color: white;
@@ -201,7 +201,10 @@ list-style-type: none;
 .main_content {
 	background-color: #e8e8e8;
 	position: relative;
-	
+
+}
+.white_background {
+	background-color: white;
 }
 .main_content_container {
 	position: absolute;
@@ -209,7 +212,7 @@ list-style-type: none;
 	margin: auto;
 	left: 0;
 	right: 0;
-	background-color: white;
+	
 	z-index: 3;
 	color:#1a1465; 
 	width:1200px;
