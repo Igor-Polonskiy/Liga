@@ -23,8 +23,10 @@
 	padding: 40px;
 }
 .right_main {
+	position: relative;
 	width: 290px;
 	padding: 40px;
+	font-size: 14px;
 }
 .catalog_serch input, .catalog_serch button{
 	height: 60px;
@@ -68,4 +70,12 @@ width: 100%;
 }
 .informaition {
 	margin-top: 30px;
+}
+.video {
+	font-size: 18px;
+}
+.video i{
+	font-size: 35px;
+	color: #0063a3;
+	margin-right: 15px;
 }
