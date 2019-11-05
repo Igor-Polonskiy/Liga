@@ -79,3 +79,14 @@ width: 100%;
 	color: #0063a3;
 	margin-right: 15px;
 }
+.choice {
+	border: none;
+	padding: 10px 20px;
+	color: #0063a3;
+	background-color:  white;
+	border-radius: 20px;
+}
+.choice.active{
+background-color: orange;
+color: white;
+}

@@ -454,5 +454,24 @@ footer .logo{
 .enter:hover {
 	color: orange;
 	cursor: pointer;
-
+}
+.right_main button {
+	height: 50px;
+	font-size: 16px;
+	font-weight: 500;
+}
+.furniture_item {
+	padding-top: 15px;
+	position: relative;
+	font-size: 14px;
+	line-height: 1em;
+	height: 420px;
+}
+.furniture_item img{
+	width: 100%;
+}
+.details {
+	position: absolute;
+	left: 15px;
+	bottom: 0;
 }
