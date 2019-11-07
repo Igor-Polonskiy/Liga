@@ -116,3 +116,104 @@ color: white;
 .gray{
 	color: gray;
 }
+.number {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: orange;
+	color: white;
+}
+.item_img {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 48%;
+	height: 200px;
+	background-image: url(../img/kdt.jpg);
+	background-position: 50% 50%;
+	background-size: cover;
+}
+.play_video {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width: 50px;
+	background-color: orange;
+	cursor: pointer;
+	border-radius: 50%;
+	color: white;
+	font-size: 25px;
+	box-shadow: 0 0 0px 10px  rgba(0,0,0,0.3);
+}
+.caption {
+	color: gray;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+.caption a{
+	text-decoration: underline;
+	color: gray;
+	font-size: 14px;
+}
+.new {
+	position: absolute;
+	left: 30px;
+	top: 1px;
+	padding: 0px 10px;
+	color: white;
+	background-color: red;
+	font-size: 20px;
+}
+.img_tools {
+	height: 200px;
+	width: 100%;
+	background-image: url(../img/frez.jpg);
+	background-position: 50% 50%;
+	background-size: cover;
+}
+.about_btns {
+	position: absolute;
+	bottom: -100px;	
+	left: 0;
+	right: 0;
+}
+.about_btns .frame {
+	height: 100px;
+	display: flex;
+	margin-bottom:  0;
+	align-items: center;
+	color:#1a1465;
+}
+
+.section {
+	position: relative;
+}
+.content_about {
+	color: #1a1465;
+	padding-top: 100px;
+	background-color: #e8e8e8;
+}
+.about_btns_ico {
+	margin-left: 10px;
+	margin-right: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border: 2px solid #0063a3;
+	color: #0063a3;
+	background-color: white;
+}
+.about_btns .frame:hover {
+	background-color: #0063a3;
+	color: white;
+}
+.content_about img  {
+	height: 230px;
+	width: 345px;
+} 

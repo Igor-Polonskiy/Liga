@@ -308,6 +308,7 @@ list-style-type: none;
 	line-height: 1em;
 	height: 300px;
 	font-weight: 500;
+	cursor: pointer;
 }
 .news_img{
 	height: 130px;
