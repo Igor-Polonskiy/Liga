@@ -85,6 +85,8 @@ width: 100%;
 	color: #0063a3;
 	background-color:  white;
 	border-radius: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
 }
 .choice.active{
 background-color: orange;
@@ -247,9 +249,10 @@ color: white;
 }
 .advantages {
 	width: 48%;
-	
+	line-height: 1em;
 	border: 1px solid lightgray;
 	padding: 10px 20px;
+	font-weight: 500;
 }
 .advantage_ico {
 	position: relative;
