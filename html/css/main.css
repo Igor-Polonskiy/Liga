@@ -1,3 +1,6 @@
+section * {
+	transition: all 0.3s;
+}
 .blue {
 	background-color: #0063a3;
 }
@@ -35,6 +38,15 @@
 	padding: 10px;
 	box-shadow: 0 0 10px 0px rgba(0,0,0,0.5);
 }
+.calendar {
+	display: none;
+	position: absolute;
+	right: -23px;
+	z-index: 15;
+	background-color: white;
+	padding: 10px;
+	box-shadow: 0 0 10px 0px rgba(0,0,0,0.5);
+}
 .triangle {
 	position: absolute;
 	right: 26px;
@@ -53,6 +65,13 @@
 .service_hide:hover .service{
 	display: block;
 	}
+.calendar_hide{
+	display: inline-block;
+	position: relative;
+	}
+.calendar_hide:hover .calendar{
+	display: block;
+}
 .nav_collapse:hover {
 	color: #0063a3;
 }
@@ -523,4 +542,19 @@ justify-content: center;
 .equp_item .img img{
 	max-height: 100%;
 	width: auto;
+}
+.datepicker-here {
+	background-color: transparent;
+	border: none;
+}
+input[name="date"]{
+	cursor: pointer;
+}
+input[name="date"]::placeholder {
+	color: #0063a3;
+	cursor: pointer;
+}
+.datepicker-here:focus{
+	outline: none;
+	caret-color: transparent;
 }
