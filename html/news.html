@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <title>fix66</title>
-
+  <link href="css/datepicker.min.css" rel="stylesheet" type="text/css">
+  
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -413,7 +414,9 @@
 		</div>
 	</div>
 	<div class="container">
-		<h1>Новости за <span class="blue_text pointer">все время <i class="fas fa-angle-down"></i></span></h1>
+		<h1>Новости за <input autocomplete="off" data-range="true" type="text" name="date"class="blue_text datepicker-here" placeholder="все время " data-multiple-dates-separator=" - "/>
+			
+		</h1>
 	</div>
 </section>
 
@@ -619,5 +622,6 @@
 </footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="js/datepicker.min.js"></script>
   <script src="js/main.js"></script>
 </body>
