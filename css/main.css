@@ -94,8 +94,9 @@ menu {
 }
 .nav_down a{
 	text-decoration: none;
+	color: inherit;
 }
-.nav_down a:hover li{
+.nav_down li:hover {
 	color: #0063a3;
     list-style-type: disc;
 
