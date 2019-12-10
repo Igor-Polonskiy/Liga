@@ -1,6 +1,9 @@
 section * {
 	transition: all 0.3s;
 }
+menu {
+	padding: 0;
+}
 .blue {
 	background-color: #0063a3;
 }
@@ -79,7 +82,7 @@ section * {
 	padding-top: 20px;
 	position: absolute;
 	border-top: 2px solid orange;
-	bottom: 0;
+	bottom: : 0;
 	left: -0;
 	right: 0;
 	background-color: white;
@@ -91,11 +94,11 @@ section * {
 }
 .nav_down a{
 	text-decoration: none;
-	color: inherit;
 }
-.nav_down li:hover {
+.nav_down a:hover li{
 	color: #0063a3;
-list-style-type: disc;
+    list-style-type: disc;
+
 }
 .nav_down p:hover {
 	cursor: pointer;
@@ -134,9 +137,9 @@ list-style-type: none;
 	font-weight: 700;
 }
 .shoping_busket{
-	position: relative;
 	height: 40px;
 	cursor: pointer;
+	position: relative;
 }
 .shop_count{
 	height: 15px;
@@ -194,7 +197,7 @@ list-style-type: none;
 	background:none;
 }
 .fixed {
-	position: fixed;
+	display: fixed;
 	box-shadow: 0px 15px  15px rgba(0,0,0,0.5);
 	left: 0;
 	right: 0;
